@@ -20,34 +20,22 @@ Developed in Python with pandas, NumPy, scikit-learn, and Streamlit, the app off
 💻 Fully open-source and customizable
 
 🧠 Machine Learning Pipeline
-Data Preprocessing:
 
-Null value checks and data cleaning
 
-Label encoding for categorical features
-
-Feature scaling for numerical consistency
-
-Model Training:
-
-Algorithms used:
-
-Linear Regression
-
-Random Forest Regressor
-
-Decision Tree Regressor
-
-Performance evaluated with:
-
-MAE (Mean Absolute Error)
-
-MSE (Mean Squared Error)
-
-R² Score
-
-Model Deployment:
-
-Best-performing model saved using joblib
-
-Integrated with a responsive Streamlit UI
+💡 How to Run the App
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/calories-burnt-prediction.git
+cd calories-burnt-prediction
+2. Install Requirements
+bash
+Copy
+Edit
+pip install -r requirements.txt
+3. Run the Streamlit App
+bash
+Copy
+Edit
+streamlit run app/calories_predictor_app.py
